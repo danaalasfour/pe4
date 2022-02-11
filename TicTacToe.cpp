@@ -6,9 +6,9 @@
 /*
 were just creating a board 
 no param
-return vector and it will look like this -8-8-8
-                                         -8-8-8
-                                         -8-8-8
+return vector and it will look like this 8 8 8
+                                         8 8 8
+                                         8 8 8
 */
 std::vector<std::vector<int>> CreateBoard(){
     std::vector<std::vector<int>> vector1;
