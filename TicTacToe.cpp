@@ -73,7 +73,7 @@ std::vector<int> GetPlayerChoice(){
 int main(){
     std::vector<std::vector<int>> board=CreateBoard();
     int player1=0; //set the player 1 marker to 0
-    for(int i=0;i<12;i++){ //iterates through the board about 12 movement if possible
+    for(int i=0;i<10;i++){ //iterates through the board about 12 movement if possible
         DisplayBoard(board);
         std::vector<int> Options = GetPlayerChoice();
         PlaceMarker(&board,Options,player1);
