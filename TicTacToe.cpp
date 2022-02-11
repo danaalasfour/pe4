@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 
@@ -14,14 +15,15 @@ std::vector<std::vector<int>> CreateBoard(){
 }
 
 void DisplayBoard(std::vector<std::vector<int>> vector1){
-    std::cout << "Board: " << std::endl;
-    for (int i = 0;i < vector1.size(); i++){
-        for (int j = 0;j < vector1.size(); j++){
-            std::cout << vector1[i][j];
+    std::cout <<"board: "<<std::endl;
+    for(int i=0;i<vector1.size();i++){
+        for(int j =0;j<vector1.size();j++){
+            std::cout << vector1[i][j]; 
         }
-        std::cout << std::endl;
+        std::cout <<std::endl;
     }
 }
+
 
 void PlaceMarker(std::vector<std::vector<int>> *board,std::vector<int> loc,int player1){
     int row=loc[0];
@@ -45,5 +47,20 @@ std::vector<int> GetPlayerChoice(){
 }
 
 int main(){
-  CreateBoard();
+    std::vector<std::vector<int>> board=CreateBoard();
+    int player1=0;
+    for(int i=0;i<12;i++){
+        DisplayBoard(board);
+        std::vector<int> Options = GetPlayerChoice();
+        PlaceMarker(&board,Options,player1);
+        if(player1==0){
+            player1=1;
+        }
+        else{
+            player1 =0;
+        }
+       
+    }
+    DisplayBoard(board);
+    return 0;
 }
