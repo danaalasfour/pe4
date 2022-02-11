@@ -62,7 +62,7 @@ std::vector<int> GetPlayerChoice(){
     std::cout<< "Enter option for row: ";
     std::cin >>rowOption;
     std::cout <<std::endl;
-    std::cout << "Please columns options: ";
+    std::cout << "Please enter columns options: ";
     std::cin>>colOption;
     std::cout << std::endl;
     Options.push_back(rowOption);
