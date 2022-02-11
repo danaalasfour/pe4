@@ -24,6 +24,7 @@ void DisplayBoard(std::vector<std::vector<int>> vector1){
     }
 }
 
+
 void PlaceMarker(std::vector<std::vector<int>> *board,std::vector<int> loc,int player1){
     int row=loc[0];
     int col=loc[1];
@@ -44,7 +45,6 @@ std::vector<int> GetPlayerChoice(){
     Options.push_back(colOption);
     return Options;
 }
-
 
 int main(){
     std::vector<std::vector<int>> board=CreateBoard();
