@@ -12,6 +12,16 @@ std::vector<std::vector<int>> CreateBoard(){
     }
     return vector1;
 }
+void DisplayBoard(std::vector<std::vector<int>> vector1){
+    std::cout <<"board: "<<std::endl;
+    for(int i=0;i<vector1.size();i++){
+        for(int j =0;j<vector1.size();j++){
+            std::cout << vector1[i][j]; 
+        }
+        std::cout <<std::endl;
+    }
+}
+
 
 int main(){
   CreateBoard();
