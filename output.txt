@@ -1,0 +1,100 @@
+board: 
+888
+888
+888
+Enter option for row: 0
+
+Please columns options: 0
+
+board: 
+088
+888
+888
+Enter option for row: 0
+
+Please columns options: 1
+
+board: 
+018
+888
+888
+Enter option for row: 1
+
+Please columns options: 1
+
+board: 
+018
+808
+888
+Enter option for row: 0
+
+Please columns options: 2
+
+board: 
+011
+808
+888
+Enter option for row: 2
+
+Please columns options: 0
+
+board: 
+011
+808
+088
+Enter option for row: 1
+
+Please columns options: 2
+
+board: 
+011
+801
+088
+Enter option for row: 1
+
+Please columns options: 0
+
+board: 
+011
+001
+088
+Enter option for row: 1
+
+Please columns options: 2
+
+board: 
+011
+001
+088
+Enter option for row: 2
+
+Please columns options: 1
+
+board: 
+011
+001
+008
+Enter option for row: 2
+
+Please columns options: 2
+
+board: 
+011
+001
+001
+Enter option for row: 2
+
+Please columns options: 1
+
+board: 
+011
+001
+001
+Enter option for row: 2
+
+Please columns options: 2
+
+board: 
+011
+001
+001
