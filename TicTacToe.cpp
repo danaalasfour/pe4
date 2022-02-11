@@ -29,6 +29,21 @@ void PlaceMarker(std::vector<std::vector<int>> *board,std::vector<int> loc,int p
     board[0][row][col] =player1;
 }
 
+std::vector<int> GetPlayerChoice(){
+    std::vector<int> Options;
+    int rowOption = 1;
+    int colOption = 0;
+    std::cout<< "Enter option for row: ";
+    std::cin >>rowOption;
+    std::cout <<std::endl;
+    std::cout << "Please columns options: ";
+    std::cin>>colOption;
+    std::cout << std::endl;
+    Options.push_back(rowOption);
+    Options.push_back(colOption);
+    return Options;
+}
+
 int main(){
   CreateBoard();
 }
